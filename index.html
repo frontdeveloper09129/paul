@@ -1,0 +1,300 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description"
+        content="Software developer portfolio showcasing technical skills, learning journey, and projects.">
+    <title>Developer Portfolio</title>
+
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+</head>
+
+<body>
+    <div class="portfolio">
+        <header class="header">
+            <div class="profile">
+                <div class="profile-avatar" aria-label="Paul initials">PD</div>
+
+                <div class="profile-info">
+                    <h1>Paul</h1>
+                    <p class="job-title">Aspiring Full-Stack Developer || Software Engineer</p>
+
+                    <div class="profile-details">
+                        <span><i class="fa-solid fa-location-dot"></i> Silang, Cavite</span>
+                        <span><i class="fa-solid fa-envelope"></i> johnpauldoromal7@gmail.com</span>
+                        <span><i class="fa-solid fa-phone"></i> 09297699727</span>
+                    </div>
+                </div>
+            </div>
+
+            <button id="theme-toggle" class="theme-toggle" type="button" aria-label="Switch to dark mode"
+                aria-pressed="false">
+                <div>
+                    <span id="theme-icon"><i class="fa-solid fa-moon"></i></span>
+                    <span id="theme-label">Dark mode</span>
+                </div>
+            </button>
+        </header>
+
+        <main>
+            <section class="main-grid">
+                <div class="left-column">
+                    <section class="card about-card">
+                        <div class="section-heading">
+                            <span class="section-number">01</span>
+                            <h2>About Me</h2>
+                        </div>
+
+                        <p class="about-description">
+                            I am an aspiring full-stack developer with around 1–2 years of learning and coding
+                            experience.
+                            I enjoy building web applications, learning new technologies, and improving my
+                            problem-solving skills.
+                            <br><br>
+                            I practice Data Structures and Algorithms through LeetCode and apply what I learn by
+                            building
+                            full-stack projects. My goal is to develop useful, responsive, and reliable applications
+                            while
+                            continuing to grow as a developer.
+                        </p>
+
+                        <div class="about-highlights">
+                            <div class="highlight">
+                                <span class="highlight-icon">
+                                    <i class="fa-solid fa-book-open"></i>
+                                </span>
+                                <div>
+                                    <h3>Continuous Learning</h3>
+                                    <p>Improving skills through hands-on projects</p>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+
+                    <section class="card timeline-card">
+                        <div class="section-heading">
+                            <span class="section-number">02</span>
+                            <h2>My Learning Journey</h2>
+                        </div>
+
+                        <p class="section-description">A look at my progress as a developer.</p>
+
+                        <div class="timeline">
+                            <div class="timeline-item">
+                                <div class="timeline-marker"></div>
+                                <div class="timeline-content">
+                                    <span class="timeline-label">STAGE 01</span>
+                                    <h3>Learning the Fundamentals</h3>
+                                    <p class="timeline-time">Around 1–2 years of learning</p>
+                                    <p>Been studying since 1-2 years || html CSS JS node js TypeScript and other
+                                        technologies tools</p>
+                                </div>
+                            </div>
+
+                            <div class="timeline-item">
+                                <div class="timeline-marker"></div>
+                                <div class="timeline-content">
+                                    <span class="timeline-label">STAGE 02</span>
+                                    <h3>SOLVING LEETCODE PROBLEM || DSA</h3>
+                                    <p class="timeline-time">LOW TO HIGHE</p>
+                                    <p>Solving LeetCode problems to improve logical thinking, algorithm skills, and
+                                        understanding of time complexity.</p>
+                                </div>
+                            </div>
+
+                            <div class="timeline-item">
+                                <div class="timeline-marker"></div>
+                                <div class="timeline-content">
+                                    <span class="timeline-label">STAGE 03</span>
+                                    <h3>Building Full-Stack Projects</h3>
+                                    <p class="timeline-time">BUILD A PROFISIONAL PROJECT</p>
+                                    <p>Applying my knowledge to frontend interfaces, server-side logic, APIs, and
+                                        database integration.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+                </div>
+
+                <aside class="card tech-card">
+                    <div class="section-heading">
+                        <span class="section-number">03</span>
+                        <h2>Tech Stack</h2>
+                    </div>
+
+                    <p class="section-description">Technologies I have been learning and using.</p>
+
+                    <div class="tech-groups" id="tech-groups">
+                        <section class="tech-group">
+                            <h3 class="tech-group-title">
+                                <span class="category-dot frontend-dot"></span>Frontend
+                            </h3>
+
+                            <div class="tech-list">
+                                <div class="tech-item"><span class="tech-icon html-icon"><i
+                                            class="fa-brands fa-html5"></i></span><span>HTML</span></div>
+                                <div class="tech-item"><span class="tech-icon css-icon"><i
+                                            class="fa-brands fa-css3-alt"></i></span><span>CSS</span></div>
+                                <div class="tech-item"><span class="tech-icon js-icon"><i
+                                            class="fa-brands fa-js"></i></span><span>JavaScript</span></div>
+                                <div class="tech-item"><span class="tech-icon tailwind-icon"><i
+                                            class="fa-solid fa-wind"></i></span><span>Tailwind CSS</span></div>
+                                <div class="tech-item"><span class="tech-icon react-icon"><i
+                                            class="fa-brands fa-react"></i></span><span>React</span></div>
+                                <div class="tech-item"><span class="tech-icon ts-icon"><i
+                                            class="fa-solid fa-code"></i></span><span>TypeScript</span></div>
+                            </div>
+                        </section>
+
+                        <section class="tech-group">
+                            <h3 class="tech-group-title">
+                                <span class="category-dot backend-dot"></span>Backend
+                            </h3>
+
+                            <div class="tech-list">
+                                <div class="tech-item"><span class="tech-icon node-icon"><i
+                                            class="fa-brands fa-node-js"></i></span><span>Node.js</span></div>
+                                <div class="tech-item"><span class="tech-icon express-icon"><i
+                                            class="fa-solid fa-server"></i></span><span>Express.js</span></div>
+                                <div class="tech-item"><span class="tech-icon jwt-icon"><i
+                                            class="fa-solid fa-key"></i></span><span>JWT</span></div>
+                                <div class="tech-item"><span class="tech-icon python-icon"><i
+                                            class="fa-brands fa-python"></i></span><span>Python</span></div>
+                                <div class="tech-item"><span class="tech-icon java-icon"><i
+                                            class="fa-brands fa-java"></i></span><span>Java</span></div>
+                            </div>
+                        </section>
+
+                        <section class="tech-group">
+                            <h3 class="tech-group-title">
+                                <span class="category-dot database-dot"></span>Database
+                            </h3>
+
+                            <div class="tech-list">
+                                <div class="tech-item"><span class="tech-icon sqlite-icon"><i
+                                            class="fa-solid fa-database"></i></span><span>SQLite</span></div>
+                                <div class="tech-item"><span class="tech-icon postgres-icon"><i
+                                            class="fa-solid fa-database"></i></span><span>PostgreSQL</span></div>
+                                <div class="tech-item"><span class="tech-icon mongo-icon"><i
+                                            class="fa-solid fa-leaf"></i></span><span>MongoDB</span></div>
+                            </div>
+                        </section>
+                    </div>
+
+                    <button class="view-stack-btn" id="view-stack-btn" type="button" aria-expanded="false"
+                        aria-controls="tech-groups">
+                        <span id="stack-btn-text">View Full Tech Stack</span>
+                        <span id="stack-btn-icon"><i class="fa-solid fa-arrow-up-right-from-square"></i></span>
+                    </button>
+                </aside>
+            </section>
+
+            <section class="projects-section">
+                <div class="projects-heading">
+                    <div>
+                        <div class="section-heading">
+                            <span class="section-number">04</span>
+                            <h2>Project Experience</h2>
+                        </div>
+                        <p class="section-description">Selected projects and practical experience.</p>
+                    </div>
+
+                    <span class="project-count">05 PROJECT SLOTS</span>
+                </div>
+
+                <div class="projects-grid">
+                    <article class="project-card">
+                        <div class="project-preview preview-one">
+                            <span class="preview-label">PROJECT 01</span>
+                            <div class="preview-window">
+                                <div class="preview-window-bar"><i></i><i></i><i></i></div>
+                                <div class="preview-content">
+                                    <div class="preview-line"></div>
+                                    <div class="preview-line short"></div>
+                                    <div class="preview-boxes"><i></i><i></i><i></i></div>
+                                </div>
+                            </div>
+                            <span class="preview-number">01</span>
+                        </div>
+                        <div class="project-info">
+                            <h3>Project Title</h3>
+                            <p>Add a short description of your first project here.</p>
+                            <span class="project-status">Add project details</span>
+                        </div>
+                    </article>
+
+                    <article class="project-card">
+                        <div class="project-preview preview-two">
+                            <span class="preview-label">PROJECT 02</span>
+                            <div class="preview-window">
+                                <div class="preview-window-bar"><i></i><i></i><i></i></div>
+                                <div class="preview-content">
+                                    <div class="preview-line"></div>
+                                    <div class="preview-line short"></div>
+                                    <div class="preview-boxes"><i></i><i></i><i></i></div>
+                                </div>
+                            </div>
+                            <span class="preview-number">02</span>
+                        </div>
+                        <div class="project-info">
+                            <h3>Project Title</h3>
+                            <p>Add a short description of your second project here.</p>
+                            <span class="project-status">Add project details</span>
+                        </div>
+                    </article>
+
+                    <article class="project-card">
+                        <div class="project-preview preview-three">
+                            <span class="preview-label">PROJECT 03</span>
+                            <div class="project-symbol"><i class="fa-solid fa-code"></i></div>
+                            <span class="preview-number">03</span>
+                        </div>
+                        <div class="project-info">
+                            <h3>Project Title</h3>
+                            <p>Describe the features and technologies you used.</p>
+                            <span class="project-status">Add project details</span>
+                        </div>
+                    </article>
+
+                    <article class="project-card">
+                        <div class="project-preview preview-four">
+                            <span class="preview-label">PROJECT 04</span>
+                            <div class="project-symbol"><i class="fa-solid fa-layer-group"></i></div>
+                            <span class="preview-number">04</span>
+                        </div>
+                        <div class="project-info">
+                            <h3>Project Title</h3>
+                            <p>Explain what you built and what you learned.</p>
+                            <span class="project-status">Add project details</span>
+                        </div>
+                    </article>
+
+                    <article class="project-card">
+                        <div class="project-preview preview-five">
+                            <span class="preview-label">PROJECT 05</span>
+                            <div class="project-symbol"><i class="fa-solid fa-laptop-code"></i></div>
+                            <span class="preview-number">05</span>
+                        </div>
+                        <div class="project-info">
+                            <h3>Project Title</h3>
+                            <p>Keep this slot for a future project.</p>
+                            <span class="project-status">Add project details</span>
+                        </div>
+                    </article>
+                </div>
+            </section>
+        </main>
+
+        <footer class="footer">
+            <p>Designed and built by Paul.</p>
+            <p>Always learning. Always building.</p>
+        </footer>
+    </div>
+
+    <script src="index.js"></script>
+</body>
+
+</html>
